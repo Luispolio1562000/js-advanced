@@ -5,6 +5,7 @@ import { asyncAwaitComponent } from "./src/concepts/async-await";
 import { asyncAwaitComponent2 } from "./src/concepts/async-await02";
 import { forAwaitComponent } from "./src/concepts/for-async-await";
 import { funcionGeneradoraComponent } from "./src/concepts/funcion-generadora";
+import { generatorAsyncComponent } from "./src/concepts/generator-Aync";
 /* import { enviromentsComponent } from "./src/concepts/enviroment.js";
 import { callbacksComponent, findHeroe } from "./src/concepts/callbacks.js";
 import { promiseComponents } from "./src/concepts/promises.js";
@@ -37,4 +38,5 @@ const element = document.querySelector(".card");
 //asyncAwaitComponent(element);
 //asyncAwaitComponent2(element);
 //forAwaitComponent(element);
-funcionGeneradoraComponent(element)
+//funcionGeneradoraComponent(element)
+generatorAsyncComponent(element)
